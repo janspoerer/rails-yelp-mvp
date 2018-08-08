@@ -1,0 +1,11 @@
+<ul>
+  <% @reviews.each do |review|  %>
+    <li>
+      <ul>
+        <li><%= "Content: #{review.content}" %></li>
+        <li><%= "Rating: #{review.rating}" %></li>
+        <li><%= "Restaurant ID: #{review.restaurant_id}" %></li>
+      </ul>
+     </li>
+  <% end %>
+</ul>

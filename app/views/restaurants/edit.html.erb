@@ -1,0 +1,5 @@
+<h1>Edit <%= @restaurant.name %> </h1>
+
+<%= render 'restaurants/form', restaurant: @restaurant %>
+
+<%= link_to "Go back to the restaurant list without saving", restaurants_path %>
